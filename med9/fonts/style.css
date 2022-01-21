@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Mochiy+Pop+P+One&family=Pacifico&display=swap');
+
+
+
+h1 {
+
+     background-color: lightsalmon;
+     color: white;
+     font-size: 50px;
+     padding: 30px;
+     margin: 20px;
+     text-align: center;
+	letter-spacing: 0.5em;
+	font-family: "Pacifico";
+	transform: rotate(180deg);
+}
+h2{
+
+
+	text-align: right;
+	background-color: lightskyblue;
+	color: white;
+	padding: 20px;
+	font-family: "Mochiy Pop P One";
+}
+p{
+
+
+
+
+	font-size: 25px;
+	text-align: justify;
+	column-count: 3;
+	padding: 30px;
+	line-height: 1.5;
+	font-family: "EB Garamond";
+
+
+}
+body{
+
+
+	background: linear-gradient(
+		77deg,
+		lightskyblue 0%,
+		lightsalmon 100%
+
+
+		);
+}
