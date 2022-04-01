@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+
+
+body{
+	margin: 0;
+}
+
+
+
+
+nav{
+	background-color: saddlebrown;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+	position: fixed;
+	width: calc(100% - 60px);
+	left: 0px;
+	top: 0px;
+
+
+}
+nav img{
+	width: 190px;
+	border-radius: 50%;
+
+
+}
+
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+
+
+
+}
+nav ul li a{
+
+
+	margin: 15px;
+	padding: 20px;
+	background-color: beige;
+	text-decoration: none;
+	color: black;
+	border-radius: 20px;
+	background: rgb(125,46,108);
+	background: linear-gradient(346deg, rgba(125,46,108,1) 28%, rgba(151,110,159,1) 41%, rgba(149,80,135,1) 80%);
+	font-family: Send Flowers;
+}
+
+nav ul li a:hover{
+	background-color: saddlebrown;
+	color: beige;
+
+
+
+}
+/* Main*/
+main{
+	padding: 100px;
+	margin-top: 100px;
+	color: white;
+}
+main h1{
+	font-size: 50px;
+	text-align: center;
+}
+p{
+	line-height: 1.5;
+	column-count: 2;
+	font-size: 20px;
+}
+
+
+
+/* Background Div */
+#background{
+	width: 100vw;
+	height: 100vh;
+	background-image: url("background.jpg");
+	background-position: center;
+	background-size: cover;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: -10;
+
+}
