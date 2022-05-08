@@ -1,0 +1,235 @@
+	@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Indie+Flower&family=Koulen&family=Tapestry&display=swap');
+
+	/*
+	*
+	* Title: Photo Shop
+	* Author:Raisa Hoxha
+	* Date: 8.05.2022
+	*/
+
+	/*Navigation*/
+	nav {
+		background: rgb(119,115,185);
+		background: linear-gradient(323deg, rgba(119,115,185,1) 7%, rgba(98,58,107,1) 56%, rgba(100,170,150,1) 70%);;
+		display: flex;
+		justify-content: space-between; /* To make space between logo and links*/
+		align-items: center;
+		padding: 100px;
+
+	}
+	nav img {
+		height: 400px;
+		border-radius: 50%;/* To make the logo rounder*/
+		width: 400px;
+	}
+	nav ul {
+		list-style: none;
+		font-family:Courgette ;
+	}
+	nav ul li {
+		display: inline-block;
+		padding: 50px;
+		
+	}
+	nav ul li a {
+		color: white;
+		font-size: 50px;
+		margin: 8px;
+		padding: 50px;
+		text-decoration: none;
+		background-color: plum;
+		border-radius: 8px; 
+	}
+
+	body {
+		margin: 0;
+	}
+	/*Products*/
+	.products{
+		background-color: #97c2b3;
+				
+	font-family: Koulen;
+		font-size: 20px;
+	}
+	.products ul {
+		list-style: none;
+		min-height: 300px;
+		display: flex;
+		justify-content: space-around;
+		align-items: stretch;
+		font-size: 30px;
+	}
+
+	.products ul li img{
+		padding-top: 30px;
+		width: 400px;
+	}
+	.products ul li h1{
+		text-align: center;
+	}
+
+	.movies{
+		background-color: mediumorchid;
+	}
+
+	.movies ul{
+		list-style: none;
+		min-height: 300px;
+		display: flex;
+		justify-content: space-around;
+		align-items: stretch;
+		font-size: 30px;
+		font-family: Koulen;
+			
+
+	}
+	.movies ul li img{
+		padding-top: 70px;
+		width: 400px;
+	}
+	.movies ul li h1{
+		text-align: center;
+	}
+
+	.tvshows{
+		background-color: #e3e08a;
+	}
+
+	.tvshows ul{
+		list-style: none;
+		min-height: 50px;
+		display: flex;
+		justify-content: space-around;
+		align-items: stretch;
+		font-size: 30px;
+		font-family: Koulen;
+	}
+	.tvshows ul li img{
+	padding-top: 30px;
+	width: 400px;
+	}
+	.tvshows ul li h1{
+		text-align: center;
+	}
+
+	.um{
+		background-color: #ace3a1;
+	}
+
+	.um ul{
+		list-style: none;
+		min-height: 300px;
+		display: flex;
+		justify-content: space-around;
+		align-items: stretch;
+		font-size: 30px;
+		font-family: Koulen;
+	}
+
+	.um ul li img {
+		padding-top: 30px;
+		width: 400px;
+	}
+	.um ul li h1{
+		text-align: center;
+	}
+	
+		
+
+	/*Header*/
+
+	header{
+		height:1000px;
+		background-color: beige;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-size: cover;
+		background-position: center;
+		background-image: url("oki.jpg");
+		font-size: 200px;
+		color: violet;
+		font-family: Koulen;
+
+	
+	}	
+
+	header h1  {
+		color: violet;
+		font-size: 200px;
+		font-family: Koulen;
+		text-align: center;
+
+
+	}
+	 .website main{
+
+		font-size: 90px;
+		font-family: Indie Flower;
+		text-align: center;
+		color: blueviolet;
+		
+
+
+	}
+	.photoshop p{
+		
+		font-size: 90px;
+		text-align: center;
+		font-family: Indie Flower;
+		color: blueviolet;
+		
+
+	
+	}
+
+	/*Main*/
+
+
+	main .image {
+		
+		display: flex;
+		height: 200px;
+		width: 300px;
+		background-size: cover;
+		background-position: center;
+		padding: 29px;
+		border: 5px double black;
+		
+
+		
+
+	}
+	main{
+		font-size: 50px;
+		color: skyblue;
+		background-color: beige;
+		font-family: ;
+	}
+
+	
+
+/*Footer*/
+
+
+	footer{
+		background: rgb(119,115,185);
+	 	height: 90px;
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		padding: 100px;
+		font-size: 50px;
+		font-family: Courgette;
+		background-image: url("wallpaper.jpg");
+		background-size: cover;
+		background-position: center;
+		height: 400px;
+
+
+	
+	
+
+
+
+
